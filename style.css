@@ -44,12 +44,15 @@ nav {
 }
 
 .nav-logo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.25em;
     text-decoration: none;
-    color: var(--black);
-    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-img {
+    height: 36px;
+    width: auto;
+    display: block;
 }
 
 .nav-links {
