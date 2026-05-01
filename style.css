@@ -168,25 +168,28 @@ nav.scrolled {
 }
 
 .hero-content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 64px;
     align-items: center;
-    gap: 48px;
     flex: 1;
 }
 
 .hero-photo {
-    width: 340px;
-    height: 340px;
+    width: 320px;
+    height: 420px;
     object-fit: cover;
-    border-radius: 50%;
+    object-position: top center;
+    border-radius: 0;
     flex-shrink: 0;
     filter: grayscale(100%);
+    display: block;
 }
 
 .hero-title {
     display: flex;
     flex-direction: column;
-    font-size: clamp(60px, 10.5vw, 152px);
+    font-size: clamp(48px, 8vw, 130px);
     font-weight: 700;
     line-height: 0.88;
     letter-spacing: -0.025em;
