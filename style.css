@@ -167,6 +167,22 @@ nav.scrolled {
     margin-bottom: 64px;
 }
 
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    flex: 1;
+}
+
+.hero-photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+    filter: grayscale(100%);
+}
+
 .hero-title {
     display: flex;
     flex-direction: column;
@@ -175,7 +191,6 @@ nav.scrolled {
     line-height: 0.88;
     letter-spacing: -0.025em;
     text-transform: uppercase;
-    flex: 1;
     justify-content: center;
     padding: 24px 0;
 }
