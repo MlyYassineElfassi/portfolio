@@ -354,6 +354,19 @@ nav.scrolled {
 
 /* ─── ABOUT ──────────────────────────────────────── */
 
+.about-photo {
+    margin-bottom: 56px;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    filter: grayscale(100%);
+}
+
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
