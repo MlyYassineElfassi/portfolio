@@ -175,8 +175,8 @@ nav.scrolled {
 }
 
 .hero-photo {
-    width: 160px;
-    height: 160px;
+    width: 340px;
+    height: 340px;
     object-fit: cover;
     border-radius: 50%;
     flex-shrink: 0;
