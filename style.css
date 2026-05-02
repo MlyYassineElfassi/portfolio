@@ -99,7 +99,7 @@ nav.scrolled {
 }
 
 .nav-logo-img {
-    height: 36px;
+    height: 56px;
     width: auto;
     display: block;
 }
@@ -157,8 +157,8 @@ nav.scrolled {
 
 .hero-meta {
     display: flex;
-    gap: 40px;
-    font-size: 10px;
+    gap: 48px;
+    font-size: 16px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--muted);
