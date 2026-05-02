@@ -12,7 +12,7 @@
     --light: #e8e4df;
     --border: #d8d4cf;
     --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --nav-h: 64px;
+    --nav-h: 72px;
 }
 
 html { scroll-behavior: smooth; }
@@ -111,7 +111,7 @@ nav.scrolled {
 }
 
 .nav-links a {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.18em;
     text-decoration: none;
@@ -248,7 +248,7 @@ nav.scrolled {
 /* ─── SECTIONS ───────────────────────────────────── */
 
 .section {
-    padding: 112px 48px;
+    padding: 140px 64px;
     border-bottom: 1px solid var(--border);
     background: var(--bg);
 }
@@ -265,14 +265,14 @@ nav.scrolled {
 }
 
 .section-num {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.2em;
     color: var(--muted);
 }
 
 .section-header h2 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -288,12 +288,12 @@ nav.scrolled {
 }
 
 .filter-btn {
-    padding: 12px 32px;
+    padding: 16px 40px;
     background: none;
     border: none;
     border-right: 1px solid var(--black);
     font-family: var(--font);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -348,7 +348,7 @@ nav.scrolled {
 }
 
 .work-info {
-    padding: 18px 24px;
+    padding: 22px 28px;
     border-top: 1px solid var(--black);
     display: flex;
     justify-content: space-between;
@@ -357,7 +357,7 @@ nav.scrolled {
 }
 
 .work-cat {
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--muted);
@@ -365,7 +365,7 @@ nav.scrolled {
 }
 
 .work-info h3 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     text-align: right;
 }
@@ -393,7 +393,7 @@ nav.scrolled {
 }
 
 .about-lead {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 300;
     line-height: 1.35;
     letter-spacing: -0.01em;
@@ -401,7 +401,7 @@ nav.scrolled {
 }
 
 .about-bio p {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.75;
     color: #555;
     margin-bottom: 20px;
@@ -416,13 +416,13 @@ nav.scrolled {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 0;
+    padding: 22px 0;
     border-bottom: 1px solid var(--light);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .detail-label {
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--muted);
@@ -432,7 +432,7 @@ nav.scrolled {
 .skills-group:last-child { margin-bottom: 0; }
 
 .skills-group h4 {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.25em;
     text-transform: uppercase;
@@ -446,12 +446,12 @@ nav.scrolled {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
 }
 
 .skills-group li {
-    font-size: 16px;
-    padding-left: 20px;
+    font-size: 20px;
+    padding-left: 24px;
     position: relative;
 }
 
@@ -469,7 +469,7 @@ nav.scrolled {
 .contact-content { max-width: 900px; }
 
 .contact-lead {
-    font-size: clamp(32px, 4vw, 52px);
+    font-size: clamp(40px, 5vw, 64px);
     font-weight: 300;
     line-height: 1.2;
     letter-spacing: -0.02em;
@@ -482,18 +482,18 @@ nav.scrolled {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 28px 0;
+    padding: 36px 0;
     text-decoration: none;
     color: var(--black);
     border-bottom: 1px solid var(--light);
     transition: padding-left 0.25s ease;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .contact-link:hover { padding-left: 20px; }
 
 .contact-label {
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--muted);
