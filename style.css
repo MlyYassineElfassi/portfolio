@@ -265,14 +265,14 @@ nav.scrolled {
 }
 
 .section-num {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.2em;
     color: var(--muted);
 }
 
 .section-header h2 {
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -288,12 +288,12 @@ nav.scrolled {
 }
 
 .filter-btn {
-    padding: 10px 28px;
+    padding: 12px 32px;
     background: none;
     border: none;
     border-right: 1px solid var(--black);
     font-family: var(--font);
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -348,7 +348,7 @@ nav.scrolled {
 }
 
 .work-info {
-    padding: 14px 20px;
+    padding: 18px 24px;
     border-top: 1px solid var(--black);
     display: flex;
     justify-content: space-between;
@@ -357,7 +357,7 @@ nav.scrolled {
 }
 
 .work-cat {
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--muted);
@@ -365,7 +365,7 @@ nav.scrolled {
 }
 
 .work-info h3 {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 500;
     text-align: right;
 }
@@ -393,7 +393,7 @@ nav.scrolled {
 }
 
 .about-lead {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 300;
     line-height: 1.35;
     letter-spacing: -0.01em;
@@ -401,7 +401,7 @@ nav.scrolled {
 }
 
 .about-bio p {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.75;
     color: #555;
     margin-bottom: 20px;
@@ -416,13 +416,13 @@ nav.scrolled {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 0;
+    padding: 18px 0;
     border-bottom: 1px solid var(--light);
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .detail-label {
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--muted);
@@ -432,7 +432,7 @@ nav.scrolled {
 .skills-group:last-child { margin-bottom: 0; }
 
 .skills-group h4 {
-    font-size: 9px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.25em;
     text-transform: uppercase;
@@ -450,7 +450,7 @@ nav.scrolled {
 }
 
 .skills-group li {
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 20px;
     position: relative;
 }
